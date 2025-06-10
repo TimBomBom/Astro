@@ -2,6 +2,10 @@
 title: My GitHub Pages Notebook!
 ---
 
-Hello world!
+Bingo Bango Bongo
 
-Write some words here!
+# Bish
+
+## Bash
+
+_Bosh_
