@@ -1,5 +1,5 @@
 ---
-title: My GitHub Pages Notebook!
+title: My Astronomy Page
 ---
 
 This site is under construction, but will eventually be home to all of my astronomy and astrophotography related things. 

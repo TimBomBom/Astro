@@ -1,0 +1,1 @@
+The goal of the project was to measure temperature of stars with my setup.
