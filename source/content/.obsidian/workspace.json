@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Star Temperature Project/Overview.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Overview"
+              "title": "index"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Star Temperature Project/Overview.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Star Temperature Project/Overview.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Overview"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Star Temperature Project/Overview.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of index"
             }
           }
         ]
@@ -187,10 +187,10 @@
   "active": "da3864e11fd104c0",
   "lastOpenFiles": [
     "Star Temperature Project/Photos.md",
-    "pookie.png",
     "Star Temperature Project/Overview.md",
     "Star Temperature Project/index.md",
     "index.md",
+    "pookie.png",
     "Star Temperature Project"
   ]
 }
