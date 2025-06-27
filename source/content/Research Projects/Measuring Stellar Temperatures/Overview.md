@@ -1,7 +1,4 @@
-<font color="#7f7f7f">This is an overview of my personal research project on amateur stellar "spectroscopy" which allows one to find the effective temperature of a star simply by taking and analyzing photos of them. Below, you will see a quick intro to the project, basic background information on the mathematical/physical principles, results, shortcomings, and next steps. </font>
-
-> [!tip]
-> You can collapse sections by hovering over headers and clicking on the little arrow icon to show/hide the contents under that header. You can use this if you get bored of reading the background preamble to skip to the methods/results, or alternatively use the table of contents on the right side of the screen. 
+<font color="#7f7f7f">This is an overview of my personal research project on amateur stellar "spectroscopy" which allows one to find the effective temperature of a star simply by taking and analyzing photos of them. Below, you will see a quick intro to the project, basic background information on the mathematical/physical principles, results, shortcomings, and next steps. Feel free to skip to Methods if you don't want to read through the intro. </font>
 
 # Introduction
 
@@ -55,3 +52,8 @@ One night, whilst taking pictures of Polaris for an astronomy assignment, I look
 I did some digging, and it is a known phenomenon on some forums, just not super discussed since it isn't considered an invasive artefact/effect and isn't really bothering anybody. Anyway, the reason why this happens is because incoming light diffracts around the vanes holding the secondary mirror, causing the path to bend slightly and cause interference patterns. The angle of diffraction depends on the wavelength of the light (I think this holds in this case), and so the light from the star is dispersed into a rainbow, similar but not exactly like a prism would. The important thing to note is the light from the star itself is being split up and separated. This means that the colours in the spike contain information about the colour of the star and it was established in [[Overview#The Physics and Math|The Physics and Math]] that the colour of a star can tell you its temperature.
 
 When I saw the rainbow diffraction spikes, I thought it just might be possible to analyze the colours in them to find the effective temperature of the stars.
+
+# Method
+
+With the background info out of the way, it's on to the actual scientific part of this post:
+
