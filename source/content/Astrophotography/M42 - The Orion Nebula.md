@@ -1,1 +1,1 @@
-![[friendlycosmos.png]]Details posted soon
+![[Image - M42.png]]Details posted soon

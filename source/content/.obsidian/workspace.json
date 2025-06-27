@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Overview"
             }
           }
         ],
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Overview"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Overview"
             }
           },
           {
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Overview"
             }
           }
         ]
@@ -186,13 +186,18 @@
   },
   "active": "825d6c95711562c3",
   "lastOpenFiles": [
-    "Research Projects/Measuring Stellar Temperatures/index.md",
-    "Astrophotography/M42 - The Orion Nebula.md",
-    "friendlycosmos.png",
+    "Research Projects/Measuring Stellar Temperatures/Pasted image 20250627013009.png",
+    "Pasted image 20250627011740.png",
+    "Research Projects/Measuring Stellar Temperatures/Pasted image 20250627012120.png",
     "Research Projects/Measuring Stellar Temperatures/Overview.md",
-    "blackbodies.md",
-    "Research Projects/Measuring Stellar Temperatures/STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg",
+    "Pasted image 20250627011759.png",
+    "Research Projects/Measuring Stellar Temperatures/telescope setup.jpg",
     "index.md",
+    "Research Projects/Measuring Stellar Temperatures/STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg",
+    "Research Projects/Measuring Stellar Temperatures/index.md",
+    "Astrophotography/Image - M42.png",
+    "Astrophotography/M42 - The Orion Nebula.md",
+    "blackbodies.md",
     "pookie.png",
     "Research Projects/Measuring Stellar Temperatures/Photos.md",
     "Astrophotography",
