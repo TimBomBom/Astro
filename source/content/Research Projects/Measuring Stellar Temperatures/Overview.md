@@ -1,10 +1,10 @@
-<font color="#7f7f7f">This is an overview of my personal research project on amateur stellar "spectroscopy" which allows one to find the effective temperature of a star simply by taking and analyzing photos of them. Below, you will see a quick intro to the project, basic background information on the mathematical/physical principles, results, shortcomings, and next steps. Feel free to skip to Methods if you don't want to read through the intro. </font>
+<font color="#7f7f7f">This document details my personal research project on amateur stellar "spectroscopy" which allows one to find the effective temperature of a star simply by taking and analyzing photos of them. Below, you will see a quick intro to the project, basic background information on the mathematical/physical principles, results, shortcomings, and next steps. Feel free to skip to Methods if you don't want to read through the intro. </font>
 
 # Introduction
 
 ## The Physics and Math
 
-Objects emit electromagnetic radiation at various intensities across all wavelengths based on their temperature (See [blackbodies](https://www.britannica.com/science/blackbody)). The relationship between temperature and intensity at a given wavelength is modeled by the Planck Function:
+Here is an intro to the concepts on which I base much of the calculations and theory (dw, it's fairly shrimple). Objects emit electromagnetic radiation at various intensities across all wavelengths based on their temperature (See [blackbodies](https://www.britannica.com/science/blackbody)). The relationship between temperature and intensity at a given wavelength is modeled by the Planck Function:
 $$
 B_{\lambda}(\lambda,T)=\left(\frac{2hc^2}{\lambda^5}\cdot\frac{1}{\exp(\frac{hc}{\lambda k_{B}T})-1}\right) \qquad \qquad \qquad \qquad (1)
 
@@ -25,7 +25,7 @@ I have neither a dedicated astro camera, filters, or a spectrophotometer rig, an
 
 ## Equipment
 
-Beyond what I had already, I did not plan on buying any new equipment or filters or anything of the sort for this research project. Speaking of what I already had, I was using a Skywatcher Virtuoso GTi 150p Newtonian reflector (not an *amazing* telescope, but **very** affordable), and my camera was a Canon Rebel SL1, a 12 year old DSLR (at the time of writing this). The telescope has a GoTo mount which allows for tracked exposures.
+Beyond what I had already, I did not plan on buying any new equipment or filters or anything of the sort for this research project. Speaking of what I already had, I was using a Skywatcher Virtuoso GTi 150p Newtonian reflector (not an *amazing* telescope, but **very** affordable), and my camera was an unmodified Canon Rebel SL1, a 12 year old DSLR (at the time of writing this). The telescope has a GoTo mount which allows for tracked exposures.
 
 <br>
 <img src="telescope setup.jpg" 
@@ -46,6 +46,7 @@ One night, whilst taking pictures of Polaris for an astronomy assignment, I look
 <font color="#7f7f7f">A stacked and auto-stretched photo of Polaris. The rainbow in the spikes is clearly visible.</font>
 
 ![[Pasted image 20250627013009.png]]
+
 <font color="#7f7f7f">A processed photo of the V462 Lupi Nova by</font> [joshsastro](https://app.lightbucket.co/astronomers/joshsastro)<font color="#7f7f7f">. The rainbow effect is demonstrated dramatically, though the saturation was likely enhanced in the editing process. </font>
 
 
