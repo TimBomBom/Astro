@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Overview"
             }
+          },
+          {
+            "id": "825d6c95711562c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Overview"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Overview"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -142,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
+                "file": "index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Overview"
+              "title": "Outline of index"
             }
           }
         ]
@@ -169,13 +184,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "825d6c95711562c3",
   "lastOpenFiles": [
-    "Research Projects/Measuring Stellar Temperatures/STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg",
-    "blackbodies.md",
-    "Research Projects/Measuring Stellar Temperatures/Overview.md",
-    "index.md",
     "Research Projects/Measuring Stellar Temperatures/index.md",
+    "Astrophotography/M42 - The Orion Nebula.md",
+    "friendlycosmos.png",
+    "Research Projects/Measuring Stellar Temperatures/Overview.md",
+    "blackbodies.md",
+    "Research Projects/Measuring Stellar Temperatures/STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg",
+    "index.md",
     "pookie.png",
     "Research Projects/Measuring Stellar Temperatures/Photos.md",
     "Astrophotography",

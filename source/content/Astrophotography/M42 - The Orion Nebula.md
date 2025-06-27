@@ -1,0 +1,1 @@
+![[friendlycosmos.png]]Details posted soon
