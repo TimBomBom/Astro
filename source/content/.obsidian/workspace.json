@@ -8,21 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2d8837e6263008e3",
+            "id": "825d6c95711562c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Research Projects/Measuring Stellar Temperatures/Overview.md",
-                "mode": "source",
-                "source": false
+                "file": "Research Projects/Measuring Stellar Temperatures/smoothed plot.png"
               },
-              "icon": "lucide-file",
-              "title": "Overview"
+              "icon": "lucide-image",
+              "title": "smoothed plot"
             }
           },
           {
-            "id": "825d6c95711562c3",
+            "id": "7d6ac452ba5b2853",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -184,21 +182,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "825d6c95711562c3",
+  "active": "7d6ac452ba5b2853",
   "lastOpenFiles": [
-    "Research Projects/Measuring Stellar Temperatures/Pasted image 20250627013009.png",
-    "Pasted image 20250627011740.png",
-    "Research Projects/Measuring Stellar Temperatures/Pasted image 20250627012120.png",
-    "Research Projects/Measuring Stellar Temperatures/Overview.md",
-    "Pasted image 20250627011759.png",
-    "Research Projects/Measuring Stellar Temperatures/telescope setup.jpg",
-    "index.md",
-    "Research Projects/Measuring Stellar Temperatures/STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg",
     "Research Projects/Measuring Stellar Temperatures/index.md",
-    "Astrophotography/Image - M42.png",
+    "Research Projects/Measuring Stellar Temperatures/smoothed plot.png",
+    "Research Projects/Measuring Stellar Temperatures/Overview.md",
+    "Research Projects/Measuring Stellar Temperatures/raw plot.png",
+    "Research Projects/Measuring Stellar Temperatures/annotated plot.png",
+    "smoothedCurve.png",
+    "rawCurve.png",
+    "Pasted image 20250701190313.png",
+    "Untitled-1.png",
+    "Untitled.png",
+    "Research Projects/Measuring Stellar Temperatures/polaris with rainbow spikes.png",
+    "Research Projects/Measuring Stellar Temperatures/SPCC comparison.png",
+    "2025-07-01.md",
+    "index.md",
     "Astrophotography/M42 - The Orion Nebula.md",
     "blackbodies.md",
-    "pookie.png",
     "Research Projects/Measuring Stellar Temperatures/Photos.md",
     "Astrophotography",
     "Research Projects",
