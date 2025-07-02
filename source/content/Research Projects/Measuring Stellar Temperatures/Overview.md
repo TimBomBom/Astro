@@ -136,13 +136,15 @@ It detects the local max/min by checking when the slope changes signs and report
 
 <font color="#7f7f7f">Figure 10 - A) The raw intensity profile of Aldebaran before straight from SIRIL. Multiple dips and turnarounds in the slope are present which would trick the program into reporting a wrong local max. Particularly noticeable in the green channel. B) The same intensity profile after being run through convolution to smooth out the graph and eliminate the noise.</font>
 
+<br>
+
 Once these points have been obtained, the following operation is performed to yield a value for each channel:
 
 $$
 \text{Max}_{{<channel>}} = \frac{Peak-Trough}{Plateau}+Trough \qquad \qquad \qquad \qquad (3)
 $$
 
-This is done to compensate for the sensitivity of the sensor. As you could see in the intensity plot of [[#^6bf370|Fig. 8]], the pixels are saturated, yet they do not all max out at 1.0 indicating the colour white. Instead, the R, G, and B channels each max out at unique values which remain approximately consistent between stars. After this, we are left with the intensity of the red, green, and blue light from the star. Then, the ratio between the channels are taken. For example:
+This is done to compensate for the sensitivity of the sensor. As you could see in the intensity plot of Fig. 8, the pixels are saturated, yet they do not all max out at 1.0 indicating the colour white. Instead, the R, G, and B channels each max out at unique values which remain approximately consistent between stars. After this, we are left with the intensity of the red, green, and blue light from the star. Then, the ratio between the channels are taken. For example:
 
 $$
 \text{R}_{RG} = \frac{Max_{R}}{Max_{G}} \qquad \qquad \qquad \qquad (4)
@@ -166,7 +168,7 @@ $$
 $$
 
 
-The initial guess starts at around $T = 100 K$ and evaluates the RMSE via eq. 6,  then checks if the difference for $T=101K$ is smaller. If so, 101K becomes the new guess, and the process repeat for $T=102K$ and so on. This goes until the error is minimized, at which point the process stops and the final temperature estimate is returned.
+The initial guess starts at around *T = 100 K* and evaluates the RMSE via eq. 6,  then checks if the error for *T = 101 K* is smaller. If so, 101 K becomes the new guess, and the process repeat for *T=102K* and so on. This goes until the error is minimized, at which point the process stops and the final temperature estimate is returned.
 
 
 ---
@@ -179,9 +181,9 @@ From the stars tested so far, this method vastly exceeded expectations. The accu
 
 <font color="#7f7f7f">Table 1.  A list of tested stars with the measured temperature compared to their literature values along with a %Error calculation.</font>
 
-|    *Star*    | *Measured (K)* | *Actual (K)* | *Error (%)* |
-| :--------: | :----------: | :--------: | :-------: |
-| Aldebaran  |     3904     |    3900    |   0.10    |
-|  Polaris   |     6052     |    6015    |   0.62    |
-| Betelgeuse |     3616     |    3600    |   0.44    |
+|  **Star**  | **Measured (K)** | **Actual (K)** | **Error (%)** |
+| :--------: | :--------------: | :------------: | :-----------: |
+| Aldebaran  |       3904       |      3900      |     0.10      |
+|  Polaris   |       6052       |      6015      |     0.62      |
+| Betelgeuse |       3616       |      3600      |     0.44      |
 
