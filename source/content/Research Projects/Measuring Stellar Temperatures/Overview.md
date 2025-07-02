@@ -168,14 +168,14 @@ $$
 $$
 
 
-The initial guess starts at around *T = 100 K* and evaluates the RMSE via eq. 6,  then checks if the error for *T = 101 K* is smaller. If so, 101 K becomes the new guess, and the process repeat for *T=102K* and so on. This goes until the error is minimized, at which point the process stops and the final temperature estimate is returned.
+The initial guess starts at around *T = 100 K* and evaluates the RMSE via eq. 6,  then checks if the error for *T = 101 K* is smaller. If so, 101 K becomes the new guess, and the process repeat for *T = 102 K* and so on. This goes until the error is minimized, at which point the process stops and the final temperature estimate is returned.
 
 
 ---
 
 # Results
 
-From the stars tested so far, this method vastly exceeded expectations. The accuracy for mid-temperature (F,G,K class) stars was remarkable, yielding errors <1% (Table 1). This was a pleasant surprise, and confirmation that it was indeed possible to perform a basic form of stellar spectroscopy with cheap amateur gear.
+From the stars tested so far, this method vastly exceeded expectations. The accuracy for mid-temperature (F,G,K class) stars was remarkable,  yielding errors <1% (Table 1). This was a pleasant surprise, and confirmation that it was indeed possible to perform a basic form of stellar spectroscopy with cheap amateur gear.
 
 <br>
 
