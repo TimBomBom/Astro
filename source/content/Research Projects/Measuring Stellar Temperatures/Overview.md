@@ -109,11 +109,13 @@ The intensity plot is saved as a .dat file for the next step. At this point, our
 From the intensity plot/dat file, there are three values for each colour channel we are interested in:
 
 1 - The absolute maximum of the channel (dubbed the "Plateau")
-	*This is the value of the flat part of the large middle feature.*
+*This is the value of the flat part of the large middle feature.*
+
 2 - The local maximum of the first band (dubbed the "Peak") 
-	*This is the value of the spike after the Plateau, representing the first and brightest repeating band of colour in the diffraction spike.*
+*This is the value of the spike after the Plateau, representing the first and brightest repeating band of colour in the diffraction spike.*
+
 3 - The local minimum between the Plateau and the Peak (dubbed the "Trough") 
-	*Fairly self-explanatory; the dip before the first Peak after the large middle feature*
+*Fairly self-explanatory; the dip before the first Peak after the large middle feature*
 
 
 ![[annotated plot.png|500]]
