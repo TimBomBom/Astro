@@ -109,11 +109,11 @@ The intensity plot is saved as a .dat file for the next step. At this point, our
 From the intensity plot/dat file, there are three values for each colour channel we are interested in:
 
 1 - The absolute maximum of the channel (dubbed the "Plateau")
-<font color="#7f7f7f">This is the value of the flat part of the large middle feature.</font>
+	*This is the value of the flat part of the large middle feature.*
 2 - The local maximum of the first band (dubbed the "Peak") 
-<font color="#7f7f7f">This is the value of the spike after the Platea, representing the first, brightest repeating band of colour in the diffraction spike.</font>
+	*This is the value of the spike after the Plateau, representing the first and brightest repeating band of colour in the diffraction spike.*
 3 - The local minimum between the Plateau and the Peak (dubbed the "Trough") 
-<font color="#7f7f7f">Fairly self-explanatory; the dip before the first Peak after the large middle feature</font>
+	*Fairly self-explanatory; the dip before the first Peak after the large middle feature*
 
 
 ![[annotated plot.png|500]]
@@ -128,7 +128,9 @@ $$
 \Delta y=\frac{y_{n+1}-y_{n}}{x_{n+1}-x_{n}}
 $$
 
-It detects the local max/min by checking when the slope changes signs and reports the value at that position. However, the data are noisy, and may dip up or down, tricking the simple algorithm with a false local min/max. To combat this, convolution is applied to smooth out the graph, and all calculations are based off the smoothed version.
+It detects the local max/min by checking when the slope changes signs and reports the value at that position. However, the data are noisy, and may dip up or down, tricking the simple algorithm with a false local min/max. To combat this, convolution is applied to smooth out the graph, and all calculations are based off the smoothed version. The convolution does change the values a bit from the original, but the difference between the raw and smoothed versions have minimal impact on the final temperature value.
 
-![[raw plot.png|500]] 
-![[smoothed plot.png|500]]
+![[raw plot.png|500]] ![[smoothed plot.png|500]]
+
+<font color="#7f7f7f">A) The raw intensity profile of Aldebaran before straight from SIRIL. Multiple dips and turnarounds in the slope are present which would trick the program into reporting a wrong local max. Particularly noticeable in the green channel. B) The same intensity profile after being run through convolution to smooth out the graph and eliminate the noise.</font>
+
