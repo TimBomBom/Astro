@@ -12,7 +12,7 @@ $$
 Where *h* is Planck's constant, c is the speed of light, $k_B$ is the Boltzmann constant, T is the effective temperature of the body (star), and $\lambda$ is the wavelength of light. Plotting the intensity as a function of wavelength yields a blackbody curve as seen below:
 
 ![[STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg]]
-[webbtelescope.org](https://webbtelescope.org/contents/articles/spectroscopy-101--types-of-spectra-and-spectroscopy) Fig. 1
+<font color="#7f7f7f">Figure 1 - A diagram showing how the intensity and peak wavelength of a blackbody curve changes with temperature. Taken from </font>[webbtelescope.org](https://webbtelescope.org/contents/articles/spectroscopy-101--types-of-spectra-and-spectroscopy)
 
 <br>
 
