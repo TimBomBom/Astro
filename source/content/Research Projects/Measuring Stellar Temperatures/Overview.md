@@ -6,13 +6,13 @@
 
 Here is an intro to the concepts on which I base much of the calculations and theory. Objects emit electromagnetic radiation at various intensities across all wavelengths based on their temperature (See [blackbodies](https://www.britannica.com/science/blackbody)). The relationship between temperature and the intensity ("brightness") at a given wavelength is modeled by the Planck Function:
 $$
-B_{\lambda}(\lambda,T)=\left(\frac{2hc^2}{\lambda^5}\cdot\frac{1}{\exp(\frac{hc}{\lambda k_{B}T})-1}\right)
+B_{\lambda}(\lambda,T)=\left(\frac{2hc^2}{\lambda^5}\cdot\frac{1}{\exp(\frac{hc}{\lambda k_{B}T})-1}\right) \qquad \qquad \qquad \qquad (1)
 
 $$
 Where *h* is Planck's constant, c is the speed of light, $k_B$ is the Boltzmann constant, T is the effective temperature of the body (star), and $\lambda$ is the wavelength of light. Plotting the intensity as a function of wavelength yields a blackbody curve as seen below:
 
 ![[STScI-J-article-Spectroscopy-Part3-ContinuousSpectra2.jpg]]
-[webbtelescope.org](https://webbtelescope.org/contents/articles/spectroscopy-101--types-of-spectra-and-spectroscopy)
+[webbtelescope.org](https://webbtelescope.org/contents/articles/spectroscopy-101--types-of-spectra-and-spectroscopy) Fig. 1
 
 <br>
 
@@ -34,11 +34,11 @@ So where did the idea to do this project come from? Well I learned about the cal
 One night, whilst taking pictures of Polaris for an astronomy assignment, I looked closer and noticed that the [diffraction spikes](https://en.wikipedia.org/wiki/Diffraction_spike) created by my Newtonian's vanes had a very pronounced rainbow effect; the spikes were colourful!
 
 ![[polaris with rainbow spikes.png]]
-<font color="#7f7f7f">A stacked and auto-stretched photo of Polaris. The rainbow in the spikes is clearly visible.</font>
+<font color="#7f7f7f">Figure 2 - A stacked and auto-stretched photo of Polaris. The rainbow in the spikes is clearly visible.</font>
 
 ![[joshsastro lupi nova.png]]
 
-<font color="#7f7f7f">A processed photo of the V462 Lupi Nova by</font> [joshsastro](https://app.lightbucket.co/astronomers/joshsastro)<font color="#7f7f7f">. The rainbow effect is demonstrated dramatically, though the saturation was likely enhanced in the editing process. </font>
+<font color="#7f7f7f">Figure 3 - A processed photo of the V462 Lupi Nova by</font> [joshsastro](https://app.lightbucket.co/astronomers/joshsastro)<font color="#7f7f7f">. The rainbow effect is demonstrated dramatically, though the saturation was likely enhanced in the editing process. </font>
 
 
 This phenomenon has been noted on some forums, but not much attention is given to it since it isn't considered an invasive artefact/effect and isn't really bothering anybody. Anyway, the reason why this happens is because incoming light diffracts around the vanes holding the secondary mirror, causing the path to bend slightly and cause interference patterns. The angle of diffraction depends on the wavelength of the light (I think this holds in this case), and so the light from the star is dispersed into a rainbow. The important thing to note is the light from the star itself is being split up and separated. This means that the colours in the spike contain information about the colour of the star, and it was established in [[Overview#The Physics and Math|The Physics and Math]] that the colour of a star can tell you its temperature.
@@ -64,7 +64,7 @@ Beyond what gear I already owned, I did not plan on buying any new equipment or 
 <img src="telescope setup.jpg" 
         width="300" 
         style="display: block; margin: 0 auto" />
-<center><font color="#7f7f7f">A photo of my humble setup.</font></center>
+<center><font color="#7f7f7f">Figure 4 - A photo of my humble setup.</font></center>
 
 <br>
 
@@ -78,12 +78,12 @@ Not every camera is created equal, and as such, each sensor and its filters are 
 
 ![[SPCC window.png]]
 
-<font color="#7f7f7f">The SPCC window in SIRIL showing the parameters used. My camera, the EOS 100D was not available in the list of OSC sensors, but the 60D was close enough so it was used.</font>
+<font color="#7f7f7f">Figure 5 - The SPCC window in SIRIL showing the parameters used. My camera, the EOS 100D was not available in the list of OSC sensors, but the 60D was close enough so it was used.</font>
 
 <br>
 
 ![[SPCC comparison.png]]
-<font color="#7f7f7f">A comparison of Betelgeuse before and after colour calibration. A strong red colour cast was present before calibration, but was successfully removed after applying SPCC. A gradient remained, but it did not impact the results significantly.</font>
+<font color="#7f7f7f">Figure 6 - A comparison of Betelgeuse before and after colour calibration. A strong red colour cast was present before calibration, but was successfully removed after applying SPCC. A gradient remained, but it did not impact the results significantly.</font>
 
 ## Analysis
 
@@ -93,13 +93,13 @@ After calibration, it came time to measure the intensity of the colours along a 
 
 
 ![[Star with Celestial grid.png]]
-<font color="#7f7f7f">A photo of Betelgeuse after SPCC ready to be analyzed. The celestial grid and compass are displayed, and a line is drawn over the "accurate spike" with the intensity plot tool. </font>
+<font color="#7f7f7f">Figure 7 - A photo of Betelgeuse after SPCC ready to be analyzed. The celestial grid and compass are displayed, and a line is drawn over the "accurate spike" with the intensity plot tool. </font>
 
 <br>
 
 ![[Betelgeuse intensity profile.png]]
 
-<font color="#7f7f7f">The plot generated by SIRIL superimposing the graphs of brightness values of the red, green, and blue pixels respectively along the cut (spike) for Betelgeuse. The large feature in the middle represents the round center of the star itself which is fully saturated, and on either side, repeating peaks and valleys represent the repeating bands of colour in the spikes.</font>
+<font color="#7f7f7f">Figure 8 - The plot generated by SIRIL superimposing the graphs of brightness values of the red, green, and blue pixels respectively along the cut (spike) for Betelgeuse. The large feature in the middle represents the round center of the star itself which is fully saturated, and on either side, repeating peaks and valleys represent the repeating bands of colour in the spikes.</font> ^6bf370
 
 The intensity plot is saved as a .dat file for the next step. At this point, our work in SIRIL is finished, and it is now over to the Java program to interpret the data.  
 %%Put a link to the Java program page when you upload it%%
@@ -108,31 +108,80 @@ The intensity plot is saved as a .dat file for the next step. At this point, our
 
 From the intensity plot/dat file, there are three values for each colour channel we are interested in:
 
-1 - The absolute maximum of the channel (dubbed the "Plateau")
-*This is the value of the flat part of the large middle feature.*
+#### 1 - The absolute maximum of the channel (the "Plateau")
+This is the value of the flat part of the large middle feature.
 
-2 - The local maximum of the first band (dubbed the "Peak") 
-*This is the value of the spike after the Plateau, representing the first and brightest repeating band of colour in the diffraction spike.*
+#### 2 - The local maximum of the first band (the "Peak") 
+This is the value of the spike after the Plateau, representing the first and brightest repeating band of colour in the diffraction spike.
 
-3 - The local minimum between the Plateau and the Peak (dubbed the "Trough") 
-*Fairly self-explanatory; the dip before the first Peak after the large middle feature*
+#### 3 - The local minimum between the Plateau and the Peak (the "Trough") 
+Fairly self-explanatory; the dip before the first Peak after the large middle feature
 
 
 ![[annotated plot.png|500]]
 
-<font color="#7f7f7f">A plot of Aldebaran's red intensity profile with the three points of interest labelled.</font>
+<font color="#7f7f7f">Figure 9 - A plot of Aldebaran's red intensity profile with the three points of interest labelled.</font>
 
 <br>
 
 To automatically detect these points, the program implements a crude first derivative by applying the secant between each point and the point in front:
 
 $$
-\Delta y=\frac{y_{n+1}-y_{n}}{x_{n+1}-x_{n}}
+\Delta y=\frac{y_{n+1}-y_{n}}{x_{n+1}-x_{n}} \qquad \qquad \qquad \qquad (2)
 $$
 
-It detects the local max/min by checking when the slope changes signs and reports the value at that position. However, the data are noisy, and may dip up or down, tricking the simple algorithm with a false local min/max. To combat this, convolution is applied to smooth out the graph, and all calculations are based off the smoothed version. The convolution does change the values a bit from the original, but the difference between the raw and smoothed versions have minimal impact on the final temperature value.
+It detects the local max/min by checking when the slope changes signs and reports the value at that position. However, the plot is noisy, and may dip up or down, tricking the simple algorithm with a false local min/max. To combat this, convolution is applied to smooth out the graph, and all calculations are based off the smoothed version. The convolution does change the values a bit from the original, but the difference between the raw and smoothed versions have minimal impact on the final temperature value.
 
 ![[raw plot.png|500]] ![[smoothed plot.png|500]]
 
-<font color="#7f7f7f">A) The raw intensity profile of Aldebaran before straight from SIRIL. Multiple dips and turnarounds in the slope are present which would trick the program into reporting a wrong local max. Particularly noticeable in the green channel. B) The same intensity profile after being run through convolution to smooth out the graph and eliminate the noise.</font>
+<font color="#7f7f7f">Figure 10 - A) The raw intensity profile of Aldebaran before straight from SIRIL. Multiple dips and turnarounds in the slope are present which would trick the program into reporting a wrong local max. Particularly noticeable in the green channel. B) The same intensity profile after being run through convolution to smooth out the graph and eliminate the noise.</font>
+
+Once these points have been obtained, the following operation is performed to yield a value for each channel:
+
+$$
+\text{Max}_{{<channel>}} = \frac{Peak-Trough}{Plateau}+Trough \qquad \qquad \qquad \qquad (3)
+$$
+
+This is done to compensate for the sensitivity of the sensor. As you could see in the intensity plot of [[#^6bf370|Fig. 8]], the pixels are saturated, yet they do not all max out at 1.0 indicating the colour white. Instead, the R, G, and B channels each max out at unique values which remain approximately consistent between stars. After this, we are left with the intensity of the red, green, and blue light from the star. Then, the ratio between the channels are taken. For example:
+
+$$
+\text{R}_{RG} = \frac{Max_{R}}{Max_{G}} \qquad \qquad \qquad \qquad (4)
+$$
+This yields the ratio between the intensity of red to green light coming from the star. This is repeated for Green/Blue and Red/Blue.
+
+### Estimating Temperature
+
+Three values for the wavelengths of red, green, and blue were selected to be 700, 550, and 478 nm respectively. Then, for some temperature, the Planck function was evaluated for the theoretical wavelengths and then ratios were once again made between these theoretical intensities as in eq. 4. For example:
+
+$$
+Th_{RG}=\frac{B_{\lambda}(700,T)}{B_{\lambda}(550,T)} \qquad \qquad \qquad \qquad (5)
+$$
+
+Where $B_{\lambda}(\lambda,T)$ is the Planck function from eq. 1, and "Th" being the Theoretical/predicted ratio between the channels. This is once again performed for Red/Green, Green/Blue, and Red/Blue. 
+
+The program then evaluates the [RMSE](https://en.wikipedia.org/wiki/Root_mean_square_deviation) between the observed ratios and theoretical at the guessed temperature by the following calculation:
+
+$$
+\sqrt{ \frac{(R_{RG}-Th_{RG})^2+(R_{GB}-Th_{GB})^2(R_{RB}-Th_{RB})^2}{3} } \qquad \qquad(6)
+$$
+
+
+The initial guess starts at around $T = 100 K$ and evaluates the RMSE via eq. 6,  then checks if the difference for $T=101K$ is smaller. If so, 101K becomes the new guess, and the process repeat for $T=102K$ and so on. This goes until the error is minimized, at which point the process stops and the final temperature estimate is returned.
+
+
+---
+
+# Results
+
+From the stars tested so far, this method vastly exceeded expectations. The accuracy for mid-temperature (F,G,K class) stars was remarkable, yielding errors <1% (Table 1). This was a pleasant surprise, and confirmation that it was indeed possible to perform a basic form of stellar spectroscopy with cheap amateur gear.
+
+<br>
+
+<font color="#7f7f7f">Table 1.  A list of tested stars with the measured temperature compared to their literature values along with a %Error calculation.</font>
+
+|    *Star*    | *Measured (K)* | *Actual (K)* | *Error (%)* |
+| :--------: | :----------: | :--------: | :-------: |
+| Aldebaran  |     3904     |    3900    |   0.10    |
+|  Polaris   |     6052     |    6015    |   0.62    |
+| Betelgeuse |     3616     |    3600    |   0.44    |
 
