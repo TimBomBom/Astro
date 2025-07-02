@@ -85,7 +85,9 @@ Not every camera is created equal, and as such, each sensor and its filters are 
 ![[SPCC comparison.png]]
 <font color="#7f7f7f">A comparison of Betelgeuse before and after colour calibration. A strong red colour cast was present before calibration, but was successfully removed after applying SPCC. A gradient remained, but it did not impact the results significantly.</font>
 
-## Analysis Pt. 1 - Getting the Data
+## Analysis
+
+### Getting the Numbers
 
 After calibration, it came time to measure the intensity of the colours along a spike. My telescope was not manufactured perfectly, and the thickness and structure of each vane varied slightly from each other. As such, each diffraction spike was a bit different in thickness and sharpness which affected the quality of the result. From my testing, the spike running roughly NNE-SSW along the celestial grid provided by SIRIL yielded the best results, so it was used for all analyses. The analysis itself was done by SIRIL's [Intensity Profile](https://siril.readthedocs.io/en/latest/Intensity-Profiling.html) tool set to Color.
 
@@ -101,18 +103,20 @@ After calibration, it came time to measure the intensity of the colours along a 
 
 The intensity plot is saved as a .dat file for the next step. At this point, our work in SIRIL is finished, and it is now over to the Java program to interpret the data.  
 %%Put a link to the Java program page when you upload it%%
-## Analysis Pt. 2 - Interpreting the Data
+
+### Interpreting the Data
 
 From the intensity plot/dat file, there are three values for each colour channel we are interested in:
 
 1. The absolute maximum of the channel (dubbed the "Plateau")
-	 <font color="#7f7f7f">This is the value of the flat part of the large middle feature. </font>
+ <font color="#7f7f7f">This is the value of the flat part of the large middle feature. </font>
 2. The local maximum of the first band (dubbed the "Peak")
-	<font color="#7f7f7f">This is the value of the spike after the Plateau, representing the first, brightest repeating band of colour in the diffraction spike  </font>
+<font color="#7f7f7f">This is the value of the spike after the Plateau, representing the first, brightest repeating band of colour in the diffraction spike  </font>
 3. The local minimum between the Plateau and the Peak (dubbed the "Trough")
-	 Fairly self-explanatory; the dip before the first Peak
+ <font color="#7f7f7f">Fairly self-explanatory; the dip before the first Peak</font>
 
 ![[annotated plot.png|500]]
+
 <font color="#7f7f7f">A plot of Aldebaran's red intensity profile with the three points of interest labelled.</font>
 
 <br>
