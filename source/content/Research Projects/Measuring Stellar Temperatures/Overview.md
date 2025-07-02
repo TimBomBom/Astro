@@ -164,7 +164,7 @@ Where $B_{\lambda}(\lambda,T)$ is the Planck function from eq. 1, and "Th" being
 The program then evaluates the [RMSE](https://en.wikipedia.org/wiki/Root_mean_square_deviation) between the observed ratios and theoretical at the guessed temperature by the following calculation:
 
 $$
-\sqrt{ \frac{(R_{RG}-Th_{RG})^2+(R_{GB}-Th_{GB})^2(R_{RB}-Th_{RB})^2}{3} } \qquad \qquad(6)
+\sqrt{ \frac{(R_{RG}-Th_{RG})^2+(R_{GB}-Th_{GB})^2+(R_{RB}-Th_{RB})^2}{3} } \qquad \qquad(6)
 $$
 
 
