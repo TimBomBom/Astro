@@ -176,7 +176,7 @@ The initial guess starts at around *T = 100 K* and evaluates the RMSE via eq. 6,
 
 <br>
 
-The ratios between channels was taken because I had no way of calibrating my setup to the units of intensity that the Planck function works in. Evaluating equation 1 for some temperature and wavelength would yield a large number like $2.9\cdot 10^{12}\space \space W \space m^{-3}$. However, I am not measuring in such units, I am simply reading how bright each pixel is, often yielding numbers ranging from 0-1. Trying to fit a Planck curve to such totally incompatible measurements is not going to get us anywhere. Instead, the intensities of the channels were divided by each other so that they could be compared relative to each other (i.e. the red signal is 2.11x brighter than the blue, etc). This eliminates units and allows us to compare the measured and theoretical values.
+The ratios between channels was taken because I had no way of calibrating my setup to the units of intensity that the Planck function works in. Evaluating equation 1 for some temperature and wavelength would yield a large number like 2.9x10<sup>12</sup> W m<sup>-3</sup>. However, I am not measuring in such units, I am simply reading how bright each pixel is, often yielding numbers ranging from 0-1. Trying to fit a Planck curve to such totally incompatible measurements is not going to get us anywhere. Instead, the intensities of the channels were divided by each other so that they could be compared relative to each other (i.e. the red signal is 2.11x brighter than the blue, etc). This eliminates units and allows us to compare the measured and theoretical values.
 
 
 ![[Desmos(1) 1.gif]]
