@@ -200,3 +200,32 @@ From the stars tested so far, this method vastly exceeded expectations. The accu
 |  Polaris   |       6052       |   6015 ± 50    |     0.62      |       Yes       |
 | Betelgeuse |       3616       |   3600 ± 25    |     0.44      |       Yes       |
 
+---
+
+# Shortcomings & Next Steps
+
+## Data
+
+The main priority moving forward is to collect more data on more stars. While it is cool that the model worked for the three stars tested, it doesn't speak much to its repeatability or reliability as a measurement method. More stars will need to be surveyed to prove it wasn't a fluke and to understand the range of temperature values for which this method is accurate. I had attempted to measure very hot stars such as Alnitak, Pollux, Rigel, and Bellatrix, however it did not yield good results. It seems that there is an upper bound on effective temperature, past which the method is no longer accurate. It is unclear, however, what that bound is. Therefore, expanding the dataset is crucial to both proving consistency and understanding the limits of the method. 
+
+Below are a list of stars I would like to survey next and add to the table in [[#Results]]:
+
+|      **Star**       | **Temperature (K)** |
+| :-----------------: | :-----------------: |
+|     γ Draconis      |        3964         |
+|      Arcturus       |        4286         |
+|       Antares       |        3660         |
+| ε Coronae Borealis* |        4408         |
+|      δ Boötis       |        4810         |
+|        Sadr         |        5790         |
+|        Rigel        |        12100        |
+\* Note that ε Coronae Borealis is fairly faint (V=4.28), and so it may not yield diffraction spikes that are prominent/bright enough for good analysis.
+
+I am also hoping to try Rigel or at least any of the very hot stars again since, upon further examination, the sub-frames for all the hot stars seem to be rather blurry due to poor tracking. I cannot rule out the possibility that many of their results were marred because of bad data. The tool may still not necessarily be very accurate at high temperatures, but the error may be lessened a bit.
+
+
+## Analysis
+
+From my observations, small variations in how I draw the line for the intensity profile along the spike can have a pretty substantial impact on the results. To work around this, I might try splitting the image into separate B&W images for each colour channel, and performing a Tri-Profile (mono) profile. This profile draws parallel lines offset from the one drawn by a number of pixels. This could be used to generate a few profiles along the same spike which have small variations between them. The coordinates would be copied and performed again for all colour channels, and then the results averaged with a ± SD or something.
+
+This is just an idea of what I will do moving forward, and will update the page with how it went when I get around to doing it.
