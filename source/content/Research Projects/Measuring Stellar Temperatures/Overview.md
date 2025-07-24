@@ -210,16 +210,16 @@ The main priority moving forward is to collect more data on more stars. While it
 
 Below are a list of stars I would like to survey next and add to the table in [[#Results]]:
 
-|      **Star**       | **Temperature (K)** |
-| :-----------------: | :-----------------: |
-|     γ Draconis      |        3964         |
-|      Arcturus       |        4286         |
-|       Antares       |        3660         |
-| ε Coronae Borealis* |        4408         |
-|      δ Boötis       |        4810         |
-|        Sadr         |        5790         |
-|        Rigel        |        12100        |
-\* Note that ε Coronae Borealis is fairly faint (V=4.28), and so it may not yield diffraction spikes that are prominent/bright enough for good analysis.
+|       **Star**       | **Temperature (K)** |
+| :------------------: | :-----------------: |
+|      γ Draconis      |        3964         |
+|       Arcturus       |        4286         |
+|       Antares        |        3660         |
+| ε Coronae Borealis\* |        4408         |
+|       δ Boötis       |        4810         |
+|         Sadr         |        5790         |
+|        Rigel         |        12100        |
+\*Note that ε Coronae Borealis is fairly faint (V=4.28), and so it may not yield diffraction spikes that are prominent/bright enough for good analysis.
 
 I am also hoping to try Rigel or at least any of the very hot stars again since, upon further examination, the sub-frames for all the hot stars seem to be rather blurry due to poor tracking. I cannot rule out the possibility that many of their results were marred because of bad data. The tool may still not necessarily be very accurate at high temperatures, but the error may be lessened a bit.
 
