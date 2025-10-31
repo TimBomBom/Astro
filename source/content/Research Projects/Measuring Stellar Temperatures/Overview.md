@@ -199,6 +199,7 @@ From the stars tested so far, this method vastly exceeded expectations. The accu
 | Aldebaran  |       3904       |   3900 ± 50    |     0.10      |       Yes       |
 |  Polaris   |       6052       |   6015 ± 50    |     0.62      |       Yes       |
 | Betelgeuse |       3616       |   3600 ± 25    |     0.44      |       Yes       |
+|   Mirach   |       3767       |   3762 ± 40    |     0.13      |       Yes       |
 
 ---
 
@@ -210,15 +211,15 @@ The main priority moving forward is to collect more data on more stars. While it
 
 Below are a list of stars I would like to survey next and add to the table in [[#Results]]:
 
-|       **Star**       | **Temperature <br>(K)** |
-| :------------------: | :---------------------: |
-|      γ Draconis      |          3964           |
-|       Arcturus       |          4286           |
-|       Antares        |          3660           |
-| ε Coronae Borealis\* |          4408           |
-|       δ Boötis       |          4810           |
-|         Sadr         |          5790           |
-|        Rigel         |          12100          |
+|      **Star**      | **Temperature <br>(K)** |
+| :----------------: | :---------------------: |
+|     γ Draconis     |          3964           |
+|      Arcturus      |          4286           |
+|      Antares       |          3660           |
+| ε Coronae Borealis |          4408           |
+|      δ Boötis      |          4810           |
+|        Sadr        |          5790           |
+|       Rigel        |          12100          |
 
 Note that ε Coronae Borealis is fairly faint (V=4.28), and so it may not yield diffraction spikes that are prominent/bright enough for good analysis.
 
@@ -230,3 +231,5 @@ I am also hoping to try Rigel or at least any of the very hot stars again since,
 From my observations, small variations in how I draw the line for the intensity profile along the spike can have a pretty substantial impact on the results. To work around this, I might try splitting the image into separate B&W images for each colour channel, and performing a Tri-Profile (mono) profile. This profile draws parallel lines offset from the one drawn by a number of pixels. This could be used to generate a few profiles along the same spike which have small variations between them. The coordinates would be copied and performed again for all colour channels, and then the results averaged with a ± SD or something.
 
 This is just an idea of what I will do moving forward, and will update the page with how it went when I get around to doing it.
+
+
