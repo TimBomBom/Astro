@@ -194,12 +194,13 @@ From the stars tested so far, this method vastly exceeded expectations. The accu
 
 <font color="#7f7f7f">Table 1.  A list of tested stars with the measured temperature compared to their literature values along with a %Error calculation.</font>
 
-|  **Star**  | **Measured (K)** | **Actual (K)** | **Error (%)** | Within ± Range? |
-| :--------: | :--------------: | :------------: | :-----------: | :-------------: |
-| Aldebaran  |       3904       |   3900 ± 50    |     0.10      |       Yes       |
-|  Polaris   |       6052       |   6015 ± 50    |     0.62      |       Yes       |
-| Betelgeuse |       3616       |   3600 ± 25    |     0.44      |       Yes       |
-|   Mirach   |       3767       |   3762 ± 40    |     0.13      |       Yes       |
+|  **Star**  | **Measured (K)** | **Actual (K)** | **Error (%)** |
+| :--------: | :--------------: | :------------: | :-----------: |
+| Aldebaran  |       3904       |   3900 ± 50    |     0.10      |
+|  Polaris   |       6052       |   6015 ± 50    |     0.62      |
+| Betelgeuse |       3616       |   3600 ± 25    |     0.44      |
+|   Mirach   |       3767       |   3762 ± 40    |     0.13      |
+|   Hamal    |       4565       |   4553 ± 15    |     0.26      |
 
 ---
 
